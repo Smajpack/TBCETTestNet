@@ -349,8 +349,8 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "myTBCEToken";
-    _symbol = "TBCE";
+    _name = "myToken";
+    _symbol = "TEST";
     _decimals = 18;
     _totalSupply = 5000 * 10 **18;
     _balances[msg.sender] = _totalSupply;
